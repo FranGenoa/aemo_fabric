@@ -8,8 +8,9 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse_name": "",
-# META       "default_lakehouse_workspace_id": ""
+# META       "default_lakehouse": "3cb07590-e69e-4a02-a112-89d3b764b31f",
+# META       "default_lakehouse_name": "storage",
+# META       "default_lakehouse_workspace_id": "5034f787-35f2-4298-9e8d-2d508ff9705e"
 # META     }
 # META   }
 # META }
@@ -126,7 +127,7 @@ from sempy_labs.tom import connect_semantic_model
 
 # CELL ********************
 
-report.report_rebind_all("Semantic_Model", "Semantic_Model")
+report.report_rebind_all('New_Semantic_Model',"Semantic_Model")
 
 # METADATA ********************
 

@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_ProTooling",
-        "value": "[\"WebModelingEdit\"]"
+        "value": "[\"SLL_UpdateDLConnection\", \"WebModelingEdit\", \"SLL\"]"
       }
     ],
     "culture": "en-US",
@@ -34,7 +34,7 @@
         "name": "DatabaseQuery",
         "expression": [
           "let",
-          "\tdatabase = Sql.Database(\"xpkymsttihxelp6vuo2w5ywt2u-oqppgcwrv7du3icjp5rrxbeq2a.datawarehouse.fabric.microsoft.com\", \"a84cbf81-01b0-41c9-8969-a1f66d006f38\")",
+          "\tdatabase = Sql.Database(\"LT7PVLM5SUAEFNUXHJ76ER2T5E-Q73TIUHSGWMEFHUNFVII76LQLY.datawarehouse.fabric.microsoft.com\", \"0670616b-6f66-422d-9f7b-b6326706a39f\")",
           "in",
           "\tdatabase"
         ],
